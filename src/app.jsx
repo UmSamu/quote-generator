@@ -56,7 +56,7 @@ export function App() {
         {currentQuote || generatorQuote()}
       </p>
       <button
-        className="w-fit bg-zinc-300 p-1 rounded font-bold text-sm hover:opacity-80 hover:opacity-80 "
+        className="w-fit bg-zinc-300 p-1 rounded font-bold text-sm hover:opacity-80"
         onClick={handleGenerator}
       >
         Gerar
